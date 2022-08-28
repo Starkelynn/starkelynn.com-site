@@ -4,10 +4,8 @@ layout: splash
 permalink: /
 header:
   #overlay_image: /images/header/site-header.png
-  overlay_image: /images/splash/ukrainian-flag.jpg
-  actions: 
-    - label: "Help Ukraine"  
-      url: https://ukrainewar.carrd.co
+  overlay_image: /assets/images/header-fuerte.JPG
+  
 
 excerpt: "**Sport - Coaching und Ernährung**"
 

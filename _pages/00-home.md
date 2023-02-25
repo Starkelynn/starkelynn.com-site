@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/header-fuerte.JPG
   
 
-excerpt: "**Sport - Coaching und Ernährung**"
+excerpt: "**Evidenz basierte Sport Ernährung**"
 
 
 feature_row:
@@ -28,8 +28,7 @@ feature_row:
 
 
 M.Sc., BA.
-BA (Sport und Leistung) der Sporthochschule Köln.
-M.Sc. (Sports Nutrition) der John Moors University Liverpool.
+M.Sc. Sport Ernährung, B.Sc. Sport und Leistung
 
 
 {% include feature_row %}

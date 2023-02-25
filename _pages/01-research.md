@@ -4,7 +4,7 @@ layout: single
 permalink: /research
 
 header:
-    overlay_image: /assets/images/header-fuerte.JPG
+    overlay_image: /assets/images/header-lifting.JPG
 
 excerpt: "Test"
 ---

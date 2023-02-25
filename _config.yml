@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 github_username: starkelynn
 minimal_mistakes_skin: default
-search: true
+search: false
 
 repository: starkelynn/starkelynn.com-site
 

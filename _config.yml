@@ -33,8 +33,6 @@ github: metadata
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 0 # amount of posts to show
-paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
@@ -55,7 +53,6 @@ logo_path: /assets/images/lynn-portrait-circle.png
 
 # Plugins (previously gems:)
 plugins:
-#  - jekyll-paginate
   - jekyll-sitemap
 #  - jekyll-gist
 #  - jekyll-feed
@@ -94,7 +91,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
 
 category_archive:
   type: liquid

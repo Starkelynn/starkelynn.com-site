@@ -48,8 +48,8 @@ feature_row:
       * Pre- und Intra-Workout Carbs
     "
     url: "/research"
-    btn-label: "Mehr zu Research"
-    btn-class: btn--primary
+    btn_label: "Mehr zu Research"
+    btn_class: btn--primary
 
 ---
 

@@ -19,16 +19,15 @@ feature_row:
     
   - title: " Berufserfahrung..."
     excerpt: "Verbesserung von Technik, Ausdauer + Koordination"
-    #url: "/improve"
-
+  
   - title: "Research..."
     excerpt: "Das A-und-O gesunden Lebens."
-    url: "/nutrition"
+    url: "/research"
 
 ---
 
 
-M.Sc. Sporternährung, B.Sc. Sport und Leistung (xxx todo xxx hi it's me, drei nette Saätze)
+hi it's me, drei nette Saätze
 
 
 {% include feature_row %}

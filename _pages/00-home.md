@@ -6,28 +6,29 @@ header:
   overlay_image: /assets/images/header-lifting.JPG
   
 
-excerpt: "**Evidenz basierte Sport Ernährung**"
+excerpt: "**Evidenzbasierte Sporternährung**"
 
 
 feature_row:
-  - title: "Coaching..."
-    excerpt: "Personal Training"
+  - title: "Ausbildung..."
+    excerpt: "
+      * M.Sc. Sport Nutrition, J.Moores University Liverpool
     
-  - title: "Verbesserung..."
+      * B.Sc. Sport und Leistung, Deutsche Sporthochschule Köln
+    "
+    
+  - title: " Berufserfahrung..."
     excerpt: "Verbesserung von Technik, Ausdauer + Koordination"
     #url: "/improve"
 
-  - title: "Ernährung..."
+  - title: "Research..."
     excerpt: "Das A-und-O gesunden Lebens."
     url: "/nutrition"
 
 ---
 
-![](/images/about/lynn-400px.jpg){: .align-right}
 
-
-M.Sc., BA.
-M.Sc. Sport Ernährung, B.Sc. Sport und Leistung
+M.Sc. Sporternährung, B.Sc. Sport und Leistung (xxx todo xxx hi it's me, drei nette Saätze)
 
 
 {% include feature_row %}

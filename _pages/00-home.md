@@ -3,8 +3,7 @@ title: Lynn Starke
 layout: splash
 permalink: /
 header:
-  #overlay_image: /images/header/site-header.png
-  overlay_image: /assets/images/header-fuerte.JPG
+  overlay_image: /assets/images/header-lifting.JPG
   
 
 excerpt: "**Evidenz basierte Sport Ernährung**"

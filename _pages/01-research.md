@@ -7,11 +7,5 @@ header:
     overlay_image: /assets/images/header-lifting.jpg
     overlay_filter: rgba(0,0,0,0.5)
 
-excerpt: "Test"
+excerpt: "This part of the website is still inn the makinng - *coming soon!*"
 ---
-
-# Research
-
-dfdf **fett** 
-
-[Text zum zeigen](https://www.markdownguide.org/basic-syntax/)

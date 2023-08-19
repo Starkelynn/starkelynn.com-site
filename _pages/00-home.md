@@ -28,16 +28,16 @@ feature_row:
     
   - title: " Berufserfahrung..."
     excerpt: "
-      * Nutrition Coach [@NubymiNutrition](https://nubymi.com/)
+      * Ernährungscoach [@NubymiNutrition](https://nubymi.com/)
     
-      * Nutrition coach und Personal Trainer [@1on1-PersonalTraining](https://1on1-personaltraining.de/)
+      * Personal Trainer [@1on1-PersonalTraining](https://1on1-personaltraining.de/)
     
       * Race Director [@Hyrox](https://hyrox.com/)
     
       * Ernährungs- und Gesundheitscoach beim Institut für Prävention und Nachsorge [@IPN](https://ipn.eu/)
       "
   
-  - title: "Research..."
+  - title: "Forschung..."
     excerpt: "
       * CBD und Regeneration
     
@@ -54,8 +54,11 @@ feature_row:
 ---
 
 
-Hi it's me, smiling, lifting, eating healthy. 
-In love with Crossfit and qualified for the Hyrox World Championchip in Manchester 2023 
+_Hi it's me, smiling, lifting, eating healthy_. 
+
+Begeisterte Crossfitterin.
+
+Nebenbei am [Hyrox World Championchip in Manchester 2023](hyrox-wc23-manchester) teilgenommen. 
 
 
 {% include feature_row %}

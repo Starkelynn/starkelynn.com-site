@@ -5,7 +5,9 @@ main:
   #  url: /training/
   #- title: "Nutrition"
    # url: /nutrition/
-  - title: "Research"
+  - title: "Forschung"
     url: /research
+  - title: "Know-How"
+    url: /knowhow
   # - title: "About"
   #  url: /about/

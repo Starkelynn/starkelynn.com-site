@@ -1,12 +1,13 @@
 ---
 title: "Effects of Cannabidiol Supplementation on Skeletal Muscle Regeneration after Intensive Resistance Training "
 layout: single
-permalink: /bachelor-thesis-summary
+permalink: /publications/bachelor-thesis-summary
 
 header:
     overlay_image: /assets/images/header-lifting.jpg
     overlay_filter: rgba(0,0,0,0.5)
 
+excerpt: "**Meine Bachelor-Thesis (Sporthochschule Köln)**"
 
 ---
 

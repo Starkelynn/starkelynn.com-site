@@ -3,6 +3,8 @@ title: "Chronic cannabidiol supplementation does not improve ratings of perceive
 layout: single
 permalink: /publications/master-thesis-summary
 
+excerpt: "**Meine Master-Thesis (John Moores University, Liverpool, UK)**"
+
 header:
     overlay_image: /assets/images/header-lifting.jpg
     overlay_filter: rgba(0,0,0,0.5)

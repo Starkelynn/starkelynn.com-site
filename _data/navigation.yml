@@ -1,13 +1,8 @@
 main:
   - title: "Home"
     url: /
-  #- title: "Training"
-  #  url: /training/
-  #- title: "Nutrition"
-   # url: /nutrition/
-  - title: "Forschung"
-    url: /research
+  - title: "Rezepte"
+    url: /rezepte
   - title: "Know-How"
     url: /knowhow
-  # - title: "About"
-  #  url: /about/
+  

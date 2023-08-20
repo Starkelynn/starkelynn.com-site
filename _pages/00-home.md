@@ -37,19 +37,12 @@ feature_row:
       * Ernährungs- und Gesundheitscoach beim Institut für Prävention und Nachsorge [@IPN](https://ipn.eu/)
       "
   
-  - title: "Forschung..."
+  - title: "Coaching..."
     excerpt: "
-      * CBD und Regeneration
+    * <a href='https://nubymi.com/coaching/coaching-buchen-lynn/'><button class='button'>Ernährungscoaching buchen</button></a>
     
-      * CBD und Performance
-    
-      * Nahrungsergänzungsmittel im Crossfit
-    
-      * Pre- und Intra-Workout Carbs
+    * <a href='https://1on1-personaltraining.de/team/'><button class='button'>Personal Training buchen</button></a>
     "
-    url: "/research"
-    btn_label: "Mehr zu Research"
-    btn_class: btn--primary
 
 ---
 

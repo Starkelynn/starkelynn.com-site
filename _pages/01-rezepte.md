@@ -7,7 +7,7 @@ header:
     overlay_image: /assets/images/header-lifting.jpg
     overlay_filter: rgba(0,0,0,0.5)
 
-excerpt: "sportliche Rezepte für alle Gelegenheiten*"
+excerpt: "sportliche Rezepte für alle Gelegenheiten"
 
 breakfast:
   - url: /assets/rezepte/breakfast/Bananen-Beeren-Porridge.webp

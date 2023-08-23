@@ -19,11 +19,13 @@ gallery:
     title: "Image 1 title caption"
 ---
 
-![](assets/../../assets/images/hyrox-wc-header.jpg)
+![](/assets/images/hyrox-wc-header.jpg)
 
 Fotos von [Sportograf.com](https://sportograf.com).
 
 {% include gallery caption="Ein paar Eindrücke von der Hyrox-WM 2023." %}
+
+![Siegerehrung](/assets/images/hyrox-wc23/IMG_2040.webp)
 
 ## Meine Ernährungsvorbereitung
 

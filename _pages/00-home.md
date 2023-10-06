@@ -57,6 +57,6 @@ feature_row:
 _Hi it's me, smiling, lifting, eating healthy_. 
 
 Begeisterte Crossfitterin. 
-Nebenbei am [Hyrox World Championchip in Manchester 2023](hyrox-wc23-manchester) teilgenommen. 
+Nebenbei am [Hyrox World Championchip in Manchester 2023](hyrox-wc23-manchester) und am [Köln Marathon 2023](/assets/images/Marathon_Urkunde.jpeg) teilgenommen. 
 
 {% include feature_row %}

@@ -25,6 +25,7 @@ excerpt: "*Geteiltes Wissen in Podcasts, Blogposts und wissenschaftlichen Publik
 
 * [CBD-Öl: Effekte auf Regeneration und Performance](https://open.spotify.com/episode/57Q04lnNOtaS3XvC4WsvLn?si=6b-Rz0hCSXCaK6R5vvCLRA), im Podcast "[Fuel Your Body](https://open.spotify.com/show/1qPyLm6guymbU1JuMIQQJR)", mit Miri Krug, Februar 2023
 * [Mythos: Nüchtern-Training für Körperfettabbau & Verbesserung der Performance im Ausdauersport](https://open.spotify.com/episode/363UptXxC23JBsidsRBGCY?si=Z2a3EHawQDKAUDHlx7vVhg), im Podcast "[Fuel Your Body](https://open.spotify.com/show/1qPyLm6guymbU1JuMIQQJR)", mit Miri Krug, Juli 2023
+* [Kohlenhydratladen, Ernährung für Marathon](https://open.spotify.com/episode/3ZFCdUwMpfUVvCt0EUTWyW?si=ScHk0slCQx-eDENwP42-nA&utm) im Podcast "[Fuel Your Body](https://open.spotify.com/show/1qPyLm6guymbU1JuMIQQJR)", mit Miri Krug, September 2023
 
 ## Blogposts
 

@@ -1,0 +1,21 @@
+/* Überschriften farblich anpassen */
+h2 {
+    color: #36452E !important;
+}
+
+
+/* Style für Buttons */
+.button {
+    background-color: #ADBC92;
+    color: #202020;
+    border: 1px solid #99A97E;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+
+    /* Hover-Effekt */
+    &:hover {
+        background-color: #99A97E;
+        border-color: #ADBC92;
+    }
+}

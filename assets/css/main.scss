@@ -7,8 +7,6 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/*
-  arc42 custom styles
-  @import 'subtle-ad.css';
-*/
 @import 'timeline.css';
+@import 'starkelynn-style.css';
+

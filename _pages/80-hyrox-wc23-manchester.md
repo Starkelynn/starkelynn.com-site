@@ -7,16 +7,13 @@ permalink: /hyrox-wc23-manchester
 gallery:
   - url: /assets/images/hyrox-wc23/IMG_2049.webp
     image_path: /assets/images/hyrox-wc23/IMG_2049-300.webp
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
+    alt: "Hyrox World Championship 2023 in Manchester"
   - url: /assets/images/hyrox-wc23/IMG_9665.webp
     image_path: /assets/images/hyrox-wc23/IMG_9665-300.webp
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
+    alt: "Hyrox World Championship 2023 in Manchester"
   - url: /assets/images/hyrox-wc23/IMG_9725.webp
     image_path: /assets/images/hyrox-wc23/IMG_9725-300.webp
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
+    alt: "Hyrox World Championship 2023 in Manchester"
 ---
 
 ![](/assets/images/hyrox-wc-header.jpg)

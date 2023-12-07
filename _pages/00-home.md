@@ -18,7 +18,7 @@ feature_row:
   excerpt: "
   ![](/assets/images/home/ernährungscoaching.webp)<br>
   
-    <li> Race Director <a rel='noopener noreferrer nofollow' target='_blank' href='https://nubymi.com/'>@NubymiNutrition</a> </li>
+    <li> Ernährungscoach <a rel='noopener noreferrer nofollow' target='_blank' href='https://nubymi.com/'>@NubymiNutrition</a> </li>
 
     <li style='margin-top: 20px;'> <a rel='noopener noreferrer nofollow' target='_blank' href='https://nubymi.com/coaching/coaching-buchen-lynn/' class='button'>Ernährungscoaching buchen</a> </li>
 

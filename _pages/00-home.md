@@ -16,16 +16,16 @@ feature_row:
   excerpt: "
   ![](/assets/images/home/ernährungscoaching.webp)<br>
 
-    * <a href='https://nubymi.com/coaching/coaching-buchen-lynn/'><button class='button'>Ernährungscoaching buchen</button></a>
+    * <a rel='noopener noreferrer nofollow' target='_blank' href='https://nubymi.com/coaching/coaching-buchen-lynn/' class='button'>Ernährungscoaching buchen</a><br><br>
 
-    * <a href='https://calendly.com/nubymi_lynn/erstgespraech_check-in'><button class='button'>Erstgespräch buchen</button></a>
+    * <a rel='noopener noreferrer nofollow' target='_blank' href='https://calendly.com/nubymi_lynn/erstgespraech_check-in' class='button'>Erstgespräch buchen</a>
       "
 
 - title: "Personal Training"
   excerpt: "
   ![](/assets/images/home/personal-training.webp)<br>
 
-    * <a href='https://1on1-personaltraining.de/team/'><button class='button'>Personal Training buchen</button></a>
+    * <a rel='noopener noreferrer nofollow' target='_blank' href='https://1on1-personaltraining.de/team/' class='button'>Personal Training buchen</a>
       "
 
 - title: "Über mich"

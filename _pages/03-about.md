@@ -9,7 +9,7 @@ header:
 
 one:
 - title: "Studium"
-  image_path: /assets/images/home/about.webp
+  image_path: /assets/images/about/studium.webp
   excerpt: "
 
         <li class='aligned'> M.Sc. Sport Nutrition, J.Moores University Liverpool </li>
@@ -21,7 +21,7 @@ one:
 
 two:
 - title: "Fortbildungen"
-  image_path: /assets/images/home/about.webp
+  image_path: /assets/images/about/fortbildungen.webp
   excerpt: "
   
       <li class='aligned'> ISAK Antropometrist </li>
@@ -36,7 +36,7 @@ two:
 
 three:
 - title: "Wissenschaftliche Arbeiten"
-  image_path: /assets/images/home/about.webp
+  image_path: /assets/images/about/wissenschaftliche-arbeiten.webp
   excerpt: "
 
       <li class='aligned'> <a href='/publications/bachelor-thesis-summary'>Effects of Cannabidiol Supplementation on Skeletal Muscle Regeneration after Intensive Resistance Training</a>. Bachelor Thesis, German Sports University, Cologne, 2021. </li>
@@ -50,7 +50,7 @@ three:
 
 
 berufserfahrung:
-  - image_path: /assets/images/home/about.webp
+  - image_path: /assets/images/about/berufserfahrung.webp
     excerpt: "
 
       <li class='aligned'>Ernährungscoach <a rel='noopener noreferrer nofollow' target='_blank' href='https://nubymi.com/'>@NubymiNutrition</a></li>
@@ -66,7 +66,7 @@ berufserfahrung:
 
 four:
 - title: "Podcasts"
-  image_path: /assets/images/home/about.webp
+  image_path: /assets/images/about/podcasts.webp
   excerpt: "
 
       <li class='aligned'> <a rel='noopener noreferrer nofollow' target='_blank' href='https://open.spotify.com/episode/57Q04lnNOtaS3XvC4WsvLn?si=6b-Rz0hCSXCaK6R5vvCLRA'>CBD-Öl: Effekte auf Regeneration und Performance</a> im Podcast <a rel='noopener noreferrer nofollow' target='_blank' href='https://open.spotify.com/show/1qPyLm6guymbU1JuMIQQJR'>'Fuel Your Body'</a> mit Miri Krug, Februar 2023.</li>
@@ -79,7 +79,7 @@ four:
 
 five:
 - title: "Blogposts"
-  image_path: /assets/images/home/about.webp
+  image_path: /assets/images/about/blogposts.webp
   excerpt: "
 
       <li> <a rel='noopener noreferrer nofollow' target='_blank' href='https://www.scienceinsport.com/sports-nutrition/?post_type=post&p=16605'>How to use Carbohydrates for Energy: Glucose, Fructose and Maltodextrin</a>. Science in Sport, April 2022. </li>

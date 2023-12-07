@@ -38,7 +38,7 @@ feature_row:
 
 - title: "Über mich"
   excerpt: "
-  ![](/assets/images/home/about.webp)<br>
+  ![](/assets/images/home/about-lynn.webp)<br>
   
       <li class='aligned'> M.Sc. Sport Nutrition, J.Moores University Liverpool </li>
     

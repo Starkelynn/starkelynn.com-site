@@ -43,12 +43,26 @@ img.fr-small-img {
 }
 
 
-.ausbildung-box {
-    border: 2px solid #ADBC92;
+.about-box {
     padding: 20px 10vw;
     border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+.ausbildung-box {
+    border: 2px solid #ADBC92;
     background-color: rgba(173, 188, 146, 0.2);
-    margin-bottom: 20px;
+
+}
+
+.berufserfahrung-box {
+    border: 2px solid rgb(246, 210, 122);
+    background-color: rgba(246, 210, 122, 0.2);
+}
+
+.science-box {
+    border: 2px solid rgb(242, 192, 101);
+    background-color: rgba(242, 192, 101, 0.2);
 }
 
 h1.about {

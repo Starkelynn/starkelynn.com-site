@@ -3,7 +3,7 @@ title: Lynn Starke
 layout: splash
 permalink: /
 header:
-  overlay_image: /assets/images/header-lifting.jpg
+  overlay_image: /assets/images/ls-header-food-training.webp
   overlay_filter: rgba(0,0,0,0.5)
   
 

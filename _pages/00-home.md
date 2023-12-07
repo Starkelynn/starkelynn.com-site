@@ -10,7 +10,45 @@ header:
 excerpt: "**Evidenzbasierte Sporternährung**"
 
 
+
 feature_row:
+- title: "Ernährungscoaching"
+  excerpt: "
+  ![](/assets/images/home/ernährungscoaching.webp)<br>
+
+    * <a href='https://nubymi.com/coaching/coaching-buchen-lynn/'><button class='button'>Ernährungscoaching buchen</button></a>
+
+    * <a href='https://calendly.com/nubymi_lynn/erstgespraech_check-in'><button class='button'>Erstgespräch buchen</button></a>
+      "
+
+- title: "Personal Training"
+  excerpt: "
+  ![](/assets/images/home/personal-training.webp)<br>
+
+    * <a href='https://1on1-personaltraining.de/team/'><button class='button'>Personal Training buchen</button></a>
+      "
+
+- title: "Über mich"
+  excerpt: "
+  ![](/assets/images/home/about.webp)<br>
+
+
+      * M.Sc. Sport Nutrition, J.Moores University Liverpool
+    
+      * B.Sc. Sport und Leistung, Deutsche Sporthochschule Köln
+
+      * ISAK Antropometrist   
+
+      * Trainer B Leistungssport Olympisches Gewichtheben
+
+      * Personal Trainer
+
+      * Medizinischer Fitnesstrainer
+
+      * <a href='/about'><button class='button'>Mehr über mich</button></a>      
+      "
+
+feature_row_2:
   - title: "Ausbildung..."
     excerpt: "
     ![](/assets/images/home/drew-beamer-Vc1pJfvoQvY-unsplash-300.webp)<br>

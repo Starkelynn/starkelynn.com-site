@@ -66,7 +66,7 @@
       {% if page.header.actions %}
         <p>
         {% for action in page.header.actions %}
-          <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+          <a rel='noopener noreferrer nofollow' target='_blank' href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
         {% endfor %}
       {% endif %}
     </div>
@@ -104,7 +104,7 @@
     {% if page.header.actions %}
     <p>
       {% for action in page.header.actions %}
-      <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+      <a rel='noopener noreferrer nofollow' target='_blank' href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
       {% endfor %}
       {% endif %}
   </div>

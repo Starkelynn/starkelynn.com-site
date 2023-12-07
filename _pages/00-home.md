@@ -53,10 +53,13 @@ feature_row:
 
 ---
 
+<div class="emp-box">
 
-_Hi it's me, smiling, lifting, eating healthy_. 
+<b><i> Hi it's me, smiling, lifting, eating healthy </i></b>
 
-Begeisterte Crossfitterin. 
-Nebenbei am [Hyrox World Championchip in Manchester 2023](hyrox-wc23-manchester) und am [Köln Marathon 2023](/assets/images/Marathon_Urkunde.jpeg) teilgenommen. 
+</div>
+
+Seit vielen Jahren betreibe ich selber leistungsmäßig Crossfit und habe nebenbei sowohl am [Hyrox World Championchip 2023](hyrox-wc23-manchester), sowie am [Köln Marathon 2023](/assets/images/Marathon_Urkunde.jpeg) teilgenommen. Dabei habe ich aus erster Hand erfahren, wie sehr Leistung von systematischem Training, sowie der individuell ausgerichteten Ernährung abhängt.
+Meine Mission ist es, Sportler*Innen durch persönlich angepasste Ernährung zu einer verbesserten Leistungs- und Regenerationsfähigkeit zu verhelfen.
 
 {% include feature_row %}

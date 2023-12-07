@@ -19,3 +19,14 @@ h2 {
         border-color: #ADBC92;
     }
 }
+
+
+
+.emp-box {
+    border: 2px solid #ADBC92;
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgba(173, 188, 146, 0.2);
+    padding: 6px 0;
+    margin-bottom: 20px;
+}

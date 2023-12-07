@@ -23,6 +23,12 @@ h2 {
 }
 
 
+li.aligned {
+    text-indent: -1.5em;
+    margin-left: 1.5em;
+}
+
+
 
 .emp-box {
     border: 2px solid #ADBC92;

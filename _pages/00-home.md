@@ -5,47 +5,54 @@ permalink: /
 header:
   overlay_image: /assets/images/ls-header-food-training.webp
   overlay_filter: rgba(0,0,0,0.5)
+  actions:
+    - label: "Buche jetzt dein Ernährungscoaching!"
+      url: 'https://nubymi.com/coaching/coaching-buchen-lynn/'
   
 
 excerpt: "**Evidenzbasierte Sporternährung**"
-
 
 
 feature_row:
 - title: "Ernährungscoaching"
   excerpt: "
   ![](/assets/images/home/ernährungscoaching.webp)<br>
+  
+    <li> Race Director <a rel='noopener noreferrer nofollow' target='_blank' href='https://nubymi.com/'>@NubymiNutrition</a> </li>
 
-    * <a rel='noopener noreferrer nofollow' target='_blank' href='https://nubymi.com/coaching/coaching-buchen-lynn/' class='button'>Ernährungscoaching buchen</a><br><br>
+    <li style='margin-top: 20px;'> <a rel='noopener noreferrer nofollow' target='_blank' href='https://nubymi.com/coaching/coaching-buchen-lynn/' class='button'>Ernährungscoaching buchen</a> </li>
 
-    * <a rel='noopener noreferrer nofollow' target='_blank' href='https://calendly.com/nubymi_lynn/erstgespraech_check-in' class='button'>Erstgespräch buchen</a>
+    <li style='margin-top: 30px;'> <a rel='noopener noreferrer nofollow' target='_blank' href='https://calendly.com/nubymi_lynn/erstgespraech_check-in' class='button'>Erstgespräch buchen</a> </li>
       "
 
 - title: "Personal Training"
   excerpt: "
   ![](/assets/images/home/personal-training.webp)<br>
 
-    * <a rel='noopener noreferrer nofollow' target='_blank' href='https://1on1-personaltraining.de/team/' class='button'>Personal Training buchen</a>
+    <li> Race Director <a rel='noopener noreferrer nofollow' target='_blank' href='https://hyrox.com/'>@Hyrox</a> </li>
+
+    <li style='margin-top: 10px;'> Personal Trainer <a rel='noopener noreferrer nofollow' target='_blank' href='https://1on1-personaltraining.de/'>@1on1-PersonalTraining</a> </li>
+      
+    <li style='margin-top: 20px;'> <a rel='noopener noreferrer nofollow' target='_blank' href='https://1on1-personaltraining.de/team/' class='button'>Personal Training buchen</a> </li>
       "
 
 - title: "Über mich"
   excerpt: "
   ![](/assets/images/home/about.webp)<br>
-
-
-      * M.Sc. Sport Nutrition, J.Moores University Liverpool
+  
+      <li class='aligned'> M.Sc. Sport Nutrition, J.Moores University Liverpool </li>
     
-      * B.Sc. Sport und Leistung, Deutsche Sporthochschule Köln
+      <li class='aligned' style='margin-top: 10px;'> B.Sc. Sport und Leistung, Deutsche Sporthochschule Köln </li>
 
-      * ISAK Antropometrist   
+      <li class='aligned' style='margin-top: 10px;'> ISAK Antropometrist </li>
 
-      * Trainer B Leistungssport Olympisches Gewichtheben
+      <li class='aligned' style='margin-top: 10px;'> Trainer B Leistungssport Olympisches Gewichtheben </li>
 
-      * Personal Trainer
+      <li class='aligned' style='margin-top: 10px;'> Personal Trainer </li>
 
-      * Medizinischer Fitnesstrainer
+      <li class='aligned' style='margin-top: 10px;'> Medizinischer Fitnesstrainer </li>
 
-      * <a href='/about'><button class='button'>Mehr über mich</button></a>      
+      <li class='aligned' style='margin-top: 20px;'> <a href='/about'><button class='button'>Mehr über mich</button></a> </li>   
       "
 
 feature_row_2:

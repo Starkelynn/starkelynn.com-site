@@ -29,6 +29,9 @@ li.aligned {
 }
 
 
+img.fr-small-img {
+    max-width: 300px;
+}
 
 .emp-box {
     border: 2px solid #ADBC92;

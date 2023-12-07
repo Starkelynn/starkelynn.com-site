@@ -41,3 +41,17 @@ img.fr-small-img {
     padding: 6px 0;
     margin-bottom: 20px;
 }
+
+
+.ausbildung-box {
+    border: 2px solid #ADBC92;
+    padding: 20px 10vw;
+    border-radius: 4px;
+    background-color: rgba(173, 188, 146, 0.2);
+    margin-bottom: 20px;
+}
+
+h1.about {
+    font-size: 200%;
+    text-align: center;
+}

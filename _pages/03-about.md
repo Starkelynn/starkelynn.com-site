@@ -49,14 +49,56 @@ three:
 "
 
 
+four:
+- title: "Podcasts"
+  image_path: /assets/images/home/about.webp
+  excerpt: "
+
+      <li class='aligned'> <a href='/publications/bachelor-thesis-summary'>Effects of Cannabidiol Supplementation on Skeletal Muscle Regeneration after Intensive Resistance Training</a>. Bachelor Thesis, German Sports University, Cologne, 2021. </li>
+
+      <li class='aligned' style='margin-top: 10px;'> <a href='/publications/master-thesis-summary'>Chronic cannabidiol supplementation does not improve ratings of perceived exertion and performance during time-trial cycling</a>. Master Thesis, John-Moore University, Liverpool, UK, 2022. </li>
+
+      <li class='aligned' style='margin-top: 30px;'> <a href='/publications/position-olympic-weightlifting'>Position stand on Nutritional Requirements for Olympic Weightlifting</a>. John-Moore University, Liverpool, UK, 2021. </li>
+
+      <li class='aligned' style='margin-top: 10px;'> <a href='/publications/statement-crossfit-supplements'>Expert Statement on the use of supplements for Crossfit</a>. John-Moore University, Liverpool, UK, 2022. </li>
+"
+
+five:
+- title: "Blogposts"
+  image_path: /assets/images/home/about.webp
+  excerpt: "
+
+      <li class='aligned'> <a href='/publications/bachelor-thesis-summary'>Effects of Cannabidiol Supplementation on Skeletal Muscle Regeneration after Intensive Resistance Training</a>. Bachelor Thesis, German Sports University, Cologne, 2021. </li>
+
+      <li class='aligned' style='margin-top: 10px;'> <a href='/publications/master-thesis-summary'>Chronic cannabidiol supplementation does not improve ratings of perceived exertion and performance during time-trial cycling</a>. Master Thesis, John-Moore University, Liverpool, UK, 2022. </li>
+
+      <li class='aligned' style='margin-top: 30px;'> <a href='/publications/position-olympic-weightlifting'>Position stand on Nutritional Requirements for Olympic Weightlifting</a>. John-Moore University, Liverpool, UK, 2021. </li>
+
+      <li class='aligned' style='margin-top: 10px;'> <a href='/publications/statement-crossfit-supplements'>Expert Statement on the use of supplements for Crossfit</a>. John-Moore University, Liverpool, UK, 2022. </li>
+"
+
 ---
 
-<h1> Ausbildung </h1>
+<div class="ausbildung-box">
+
+<h1 class="about"> Ausbildung </h1>
 
 {% include feature_row id="one" type="left" %}
 
 {% include feature_row id="two" type="right" %}
 
+</div>
+
+
+
+<div class="science-box">
+
 <h1> Science </h1>
 
 {% include feature_row id="three" type="left" %}
+
+{% include feature_row id="four" type="right" %}
+
+{% include feature_row id="five" type="left" %}
+
+</div>

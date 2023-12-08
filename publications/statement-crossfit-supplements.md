@@ -1,9 +1,7 @@
 ---
-title: ""
+title: "Expert-Statement on the use of supplements for Crossfit"
 layout: single
 permalink: /publications/statement-crossfit-supplements
-
-excerpt: "**Expert-Statement on the use of supplements for Crossfit**"
 
 header:
     overlay_image: /assets/images/header-lifting.jpg

@@ -1,10 +1,12 @@
 main:
   - title: "Home"
     url: /
+  - title: "Angebot"
+    url: /offerings
+  - title: "Über mich"
+    url: /about
   - title: "Rezepte"
     url: /rezepte
-  - title: "Know-How"
-    url: /knowhow
   - title: "Kundenfeedback"
     url: /kundenfeedback
   

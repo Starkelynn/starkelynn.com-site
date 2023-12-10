@@ -1,7 +1,6 @@
 ---
 title: "Feedback meiner Kundinnen und Kunden"
-layout: single
-classes: wide
+layout: splash
 
 permalink: /kundenfeedback
 

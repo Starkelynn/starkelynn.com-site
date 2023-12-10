@@ -7,7 +7,8 @@ h2 {
 /* Style für Buttons */
 .button {
     background-color: #ADBC92;
-    color: #202020;
+    color: black !important;
+    text-decoration: none !important;
     border: 1px solid #99A97E;
     border-radius: 5px;
     padding: 10px 20px;
@@ -17,5 +18,96 @@ h2 {
     &:hover {
         background-color: #99A97E;
         border-color: #ADBC92;
+        color: black !important;
     }
+}
+
+
+
+
+
+img.fr-small-img {
+    max-width: 300px;
+}
+
+.emp-box {
+    border: 2px solid #ADBC92;
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgba(173, 188, 146, 0.2);
+    padding: 6px 0;
+    margin-bottom: 20px;
+}
+
+
+.about-box {
+    padding: 20px 10vw;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+.ausbildung-box {
+    border: 2px solid #ADBC92;
+    background-color: rgba(173, 188, 146, 0.2);
+
+}
+
+.berufserfahrung-box {
+    border: 2px solid rgb(246, 210, 122);
+    background-color: rgba(246, 210, 122, 0.2);
+}
+
+.science-box {
+    border: 2px solid rgb(242, 192, 101);
+    background-color: rgba(242, 192, 101, 0.2);
+}
+
+h1.about {
+    font-size: 200%;
+    text-align: center;
+}
+
+
+
+
+/*
+socials
+*/
+
+
+.socials {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.socials__item {
+  display: inline-block;
+  margin-left: 7px;
+}
+
+.no-margin {
+  margin-left: 0px;
+}
+
+.socials__item__link {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgb(173, 188, 146);
+  font-size: 24px;
+  line-height: 50px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background: rgb(246, 210, 122);
+  }
+
+}
+
+.center {
+    text-align: center;
 }

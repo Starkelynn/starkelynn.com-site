@@ -16,7 +16,7 @@ excerpt: "**Evidenzbasierte Sporternährung**"
 feature_row:
 - title: "Ernährungscoaching"
   excerpt: "
-  ![](/assets/images/home/ernährungscoaching.webp)<br>
+  ![](/assets/images/about/berufserfahrung.webp)<br>
   
     <li> Ernährungscoach <a rel='noopener noreferrer nofollow' target='_blank' href='https://nubymi.com/'>@NubymiNutrition</a> </li>
 

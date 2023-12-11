@@ -12,7 +12,7 @@ one:
   image_path: /assets/images/about/studium.webp
   excerpt: "
 
-        <li class='aligned'> M.Sc. Sport Nutrition, J.Moores University Liverpool </li>
+        <li class='aligned'> M.Sc. Sport Nutrition, John-Moores University Liverpool </li>
     
       <li class='aligned' style='margin-top: 10px;'> B.Sc. Sport und Leistung, Deutsche Sporthochschule Köln </li> 
 
@@ -41,11 +41,11 @@ three:
 
       <li class='aligned'> <a href='/publications/bachelor-thesis-summary'>Effects of Cannabidiol Supplementation on Skeletal Muscle Regeneration after Intensive Resistance Training</a>. Bachelor Thesis, German Sports University, Cologne, 2021. </li>
   
-      <li class='aligned' style='margin-top: 10px;'> <a href='/publications/master-thesis-summary'>Chronic cannabidiol supplementation does not improve ratings of perceived exertion and performance during time-trial cycling</a>. Master Thesis, John-Moore University, Liverpool, UK, 2022. </li>
+      <li class='aligned' style='margin-top: 10px;'> <a href='/publications/master-thesis-summary'>Chronic cannabidiol supplementation does not improve ratings of perceived exertion and performance during time-trial cycling</a>. Master Thesis, John-Moores University, Liverpool, UK, 2022. </li>
 
-      <li class='aligned' style='margin-top: 30px;'> <a href='/publications/position-olympic-weightlifting'>Position stand on Nutritional Requirements for Olympic Weightlifting</a>. John-Moore University, Liverpool, UK, 2021. </li>
+      <li class='aligned' style='margin-top: 30px;'> <a href='/publications/position-olympic-weightlifting'>Position stand on Nutritional Requirements for Olympic Weightlifting</a>. John-Moores University, Liverpool, UK, 2021. </li>
 
-      <li class='aligned' style='margin-top: 10px;'> <a href='/publications/statement-crossfit-supplements'>Expert Statement on the use of supplements for Crossfit</a>. John-Moore University, Liverpool, UK, 2022. </li>
+      <li class='aligned' style='margin-top: 10px;'> <a href='/publications/statement-crossfit-supplements'>Expert Statement on the use of supplements for Crossfit</a>. John-Moores University, Liverpool, UK, 2022. </li>
 "
 
 
@@ -53,7 +53,7 @@ berufserfahrung:
   - image_path: /assets/images/about/berufserfahrung.webp
     excerpt: "
 
-      <li class='aligned'>Ernährungscoach <a rel='noopener noreferrer nofollow' target='_blank' href='https://nubymi.com/'>@NubymiNutrition</a></li>
+      <li class='aligned'>Ernährungscoach <a rel='noopener noreferrer nofollow' target='_blank' href='https://nubymi.com/'>@Nubymi-Nutrition</a></li>
 
       <li class='aligned' style='margin-top: 10px;'>Personal Trainer <a rel='noopener noreferrer nofollow' target='_blank' href='https://1on1-personaltraining.de/'>@1on1-PersonalTraining</a></li>
 
@@ -74,6 +74,8 @@ four:
       <li class='aligned' style='margin-top: 10px;'> <a rel='noopener noreferrer nofollow' target='_blank' href='https://open.spotify.com/episode/363UptXxC23JBsidsRBGCY?si=Z2a3EHawQDKAUDHlx7vVhg'>Mythos: Nüchtern-Training für Körperfettabbau & Verbesserung der Performance im Ausdauersport</a> im Podcast <a rel='noopener noreferrer nofollow' target='_blank' href='https://open.spotify.com/show/1qPyLm6guymbU1JuMIQQJR'>'Fuel Your Body'</a> mit Miri Krug, Juli 2023.</li>
 
       <li class='aligned' style='margin-top: 10px;'>  <a rel='noopener noreferrer nofollow' target='_blank' href='https://open.spotify.com/episode/3ZFCdUwMpfUVvCt0EUTWyW?si=ScHk0slCQx-eDENwP42-nA&utm'>Kohlenhydratladen, Ernährung für Marathon</a> im Podcast <a rel='noopener noreferrer nofollow' target='_blank' href='https://open.spotify.com/show/1qPyLm6guymbU1JuMIQQJR'>'Fuel Your Body'</a> mit Miri Krug, September 2023.</li>
+
+  <li class='aligned' style='margin-top: 10px;'>  <a rel='noopener noreferrer nofollow' target='_blank' href='https://open.spotify.com/episode/27iqjoN1sHRIE6QofYpVP9?si=6dff74cee23c4692&nd=1&dlsi=583497ec5d054099'>Ernährung für Hyrox</a> im Podcast <a rel='noopener noreferrer nofollow' target='_blank' href='https://open.spotify.com/show/1qPyLm6guymbU1JuMIQQJR'>'Fuel Your Body'</a> mit Miri Krug, November 2023.</li>
 
 "
 

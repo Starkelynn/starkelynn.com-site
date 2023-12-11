@@ -18,7 +18,7 @@ feature_row:
   excerpt: "
   ![](/assets/images/about/berufserfahrung.webp)<br>
   
-    <li> Ernährungscoach <a rel='noopener noreferrer nofollow' target='_blank' href='https://nubymi.com/'>@NubymiNutrition</a> </li>
+    <li> Ernährungscoach <a rel='noopener noreferrer nofollow' target='_blank' href='https://nubymi.com/'>@Nubymi-Nutrition</a> </li>
 
     <li style='margin-top: 20px;'> <a rel='noopener noreferrer nofollow' target='_blank' href='https://nubymi.com/coaching/coaching-buchen-lynn/' class='button'>Ernährungscoaching buchen</a> </li>
 
@@ -40,7 +40,7 @@ feature_row:
   excerpt: "
   ![](/assets/images/home/about-lynn.webp)<br>
   
-      <li class='aligned'> M.Sc. Sport Nutrition, J.Moores University Liverpool </li>
+      <li class='aligned'> M.Sc. Sport Nutrition, John-Moores University Liverpool </li>
     
       <li class='aligned' style='margin-top: 10px;'> B.Sc. Sport und Leistung, Deutsche Sporthochschule Köln </li>
 

@@ -1,12 +1,8 @@
 main:
-  - title: "Home"
-    url: /
-  - title: "Angebot"
+  - title: "Angebote"
     url: /offerings
   - title: "Über mich"
     url: /about
-  - title: "Rezepte"
-    url: /rezepte
   - title: "Kundenfeedback"
     url: /kundenfeedback
   

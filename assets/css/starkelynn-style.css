@@ -220,8 +220,6 @@ socials
 
 .offer-card ul,
 .service-card ul {
-    list-style: none;
-    padding: 0;
     text-align: left;
 }
 

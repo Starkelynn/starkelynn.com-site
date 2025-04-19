@@ -163,3 +163,48 @@ socials
 }
 
 
+
+
+
+
+.offer-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 3rem;
+    padding: 4rem 2rem 2rem; /* ↓ unten etwas weniger Padding */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.offer-card {
+    background-color: #fff;
+    border-radius: 0.75rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+    text-align: center;
+}
+
+.offer-card img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto 1rem auto;
+    border-radius: 0.5rem;
+    display: block;
+}
+
+.offer-card h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0.75rem;
+    margin-top: 0.5rem;
+    font-weight: 600;
+}
+
+.offer-card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.bigger {
+    font-size: 130% !important;
+}

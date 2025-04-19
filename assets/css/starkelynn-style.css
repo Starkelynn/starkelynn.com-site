@@ -35,7 +35,7 @@ img.fr-small-img {
     border-radius: 4px;
     text-align: center;
     background-color: rgba(173, 188, 146, 0.2);
-    padding: 6px 0;
+    padding: 1rem;
     margin-bottom: 20px;
 }
 
@@ -213,9 +213,6 @@ socials
 
 
 .offer-card ul {
-    list-style: none;
-    padding: 0;
-    margin: 1rem 0 0 0;
     text-align: left;
 }
 

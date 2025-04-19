@@ -212,11 +212,15 @@ socials
 
 
 
-.offer-card ul {
+.offer-card ul,
+.service-card ul {
+    list-style: none;
+    padding: 0;
     text-align: left;
 }
 
-.offer-card ul li {
+.offer-card ul li,
+.service-card ul li {
     margin-bottom: 0.75rem;
     font-size: 1.05rem;
     line-height: 1.5;

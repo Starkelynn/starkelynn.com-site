@@ -208,3 +208,19 @@ socials
 .bigger {
     font-size: 130% !important;
 }
+
+
+
+
+.offer-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    text-align: left;
+}
+
+.offer-card ul li {
+    margin-bottom: 0.75rem;
+    font-size: 1.05rem;
+    line-height: 1.5;
+}

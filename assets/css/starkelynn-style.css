@@ -62,6 +62,12 @@ img.fr-small-img {
     background-color: rgba(242, 192, 101, 0.2);
 }
 
+.sport-box {
+    border: 2px solid rgb(234, 142, 95);
+    background-color: rgba(234, 142, 95, 0.2);
+}
+
+
 h1.about {
     font-size: 200%;
     text-align: center;

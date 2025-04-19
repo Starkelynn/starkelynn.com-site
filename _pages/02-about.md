@@ -36,17 +36,22 @@ two:
 
 
 three:
-- title: "Wissenschaftliche Arbeiten"
+- title: "Wissenschaftliche Veröffentlichungen"
   image_path: /assets/images/about/wissenschaftliche-arbeiten.webp
   excerpt: "
 
-      <li class='aligned'> <a href='/publications/bachelor-thesis-summary'>Effects of Cannabidiol Supplementation on Skeletal Muscle Regeneration after Intensive Resistance Training</a>. Bachelor Thesis, German Sports University, Cologne, 2021. </li>
-  
-      <li class='aligned' style='margin-top: 10px;'> <a href='/publications/master-thesis-summary'>Chronic cannabidiol supplementation does not improve ratings of perceived exertion and performance during time-trial cycling</a>. Master Thesis, John-Moores University, Liverpool, UK, 2022. </li>
+      <li class='aligned'>
+  <a href='https://www.researchgate.net/publication/380341215_Does_a_broad-spectrum_cannabidiol_supplement_improve_performance_in_a_10-min_cycle_ergometer_performance-test' target='_blank' rel='noopener noreferrer nofollow'>
+    Does a broad‐spectrum cannabidiol supplement improve performance in a 10‐min cycle ergometer performance‐test?
+  </a>
+</li>
 
-      <li class='aligned' style='margin-top: 30px;'> <a href='/publications/position-olympic-weightlifting'>Position stand on Nutritional Requirements for Olympic Weightlifting</a>. John-Moores University, Liverpool, UK, 2021. </li>
+<li class='aligned' style='margin-top: 10px;'>
+  <a href='https://www.researchgate.net/publication/354209329_Effects_of_Cannabidiol_Supplementation_on_Skeletal_Muscle_Regeneration_after_Intensive_Resistance_Training' target='_blank' rel='noopener noreferrer nofollow'>
+    Effects of Cannabidiol Supplementation on Skeletal Muscle Regeneration after Intensive Resistance Training
+  </a>
+</li>
 
-      <li class='aligned' style='margin-top: 10px;'> <a href='/publications/statement-crossfit-supplements'>Expert Statement on the use of supplements for Crossfit</a>. John-Moores University, Liverpool, UK, 2022. </li>
 "
 
 

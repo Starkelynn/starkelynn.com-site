@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/images/ls-header-food-training.webp
   overlay_filter: rgba(0,0,0,0.5)
   actions:
-    - label: "Buche jetzt dein Ernährungscoaching!"
+    - label: "Buche jetzt dein kostenloses Erstgespräch"
       url: 'https://nubymi.com/coaching/coaching-buchen-lynn/'
   
 
@@ -59,11 +59,17 @@ feature_row:
 
 <div class="emp-box">
 
-<b><i> Hi it's me, smiling, lifting, eating healthy </i></b>
+<b><i> Evidenzbasierte Sporternährung für Marathon, Hyrox und CrossFit. </i></b>
 
 </div>
 
-Seit vielen Jahren betreibe ich selber leistungsmäßig Crossfit und habe nebenbei sowohl am [Hyrox World Championchip 2023](hyrox-wc23-manchester), sowie am [Köln Marathon 2023](/assets/images/Marathon_Urkunde.jpeg) teilgenommen. Dabei habe ich aus erster Hand erfahren, wie sehr Leistung von systematischem Training, sowie der individuell ausgerichteten Ernährung abhängt.
-Meine Mission ist es, Sportler*Innen durch persönlich angepasste Ernährung zu einer verbesserten Leistungs- und Regenerationsfähigkeit zu verhelfen.
+Angebotssatz Lorem Ipsum
 
-{% include feature_row %}
+<br>
+<hr class="clean-divider">
+<p class="center">
+Erfahrung in Crossfit, Hyrox, Ausbildung und so weiter, also Vorstellung
+</p>
+<hr class="clean-divider">
+<br>
+

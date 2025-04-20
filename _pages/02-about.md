@@ -57,8 +57,9 @@ three:
 
 berufserfahrung:
   - image_path: /assets/images/about/berufserfahrung.webp
+    title: ""
     excerpt: "
-
+    
      <li class='aligned'>Selbstständiger Ernährungscoach</li>
 
 <li class='aligned' style='margin-top: 10px;'>Ernährungscoach <a href='https://nubymi.com/' target='_blank' rel='noopener noreferrer nofollow'>@Nubymi-Nutrition</a></li>
@@ -75,13 +76,14 @@ berufserfahrung:
 
 sport:
   - image_path: /assets/images/about/blogposts.webp
+    title: ""
     excerpt: "
 
 <li class='aligned'>Regionalliga-Athletin im olympischen Gewichtheben (2022), inkl. DM-Qualifikation</li>
 <li class='aligned' style='margin-top: 10px;'>Halbmarathon-Finisherin (2022)</li>
 <li class='aligned' style='margin-top: 10px;'>Teilnehmerin der HYROX World Championships (2023)</li>
 <li class='aligned' style='margin-top: 10px;'>Finisherin des Köln Marathons (2023)</li>
-<li class='aligned' style='margin-top: 10px;'>Teamstarterin bei der Fitnessbundesliga (2024)</li>
+<li class='aligned' style='margin-top: 10px;'>Teamstarterin bei der Fitnessbundesliga (2024 & 2025)</li>
 
 
 
@@ -121,6 +123,24 @@ sport:
 
 <h2 class="center">Podcasts</h2>
 
+<li class='aligned' style='margin-top: 10px;'> 
+  <a href='https://open.spotify.com/episode/2wDhwV9jXDZq5AuvCliQNN?si=qRRQB8XYQTClh-STJg4Jpw' target='_blank' rel='noopener noreferrer nofollow'>
+    #7 – Die Grundlagen der Sporternährung
+  </a> im Podcast <a href='https://open.spotify.com/show/58a1nYt1EAIW11QBAtrftW' target='_blank' rel='noopener noreferrer nofollow'>'Fit Up! Fundiertes Sportwissen'</a>, Februar 2025.
+</li>
+
+<li class='aligned' style='margin-top: 10px;'> 
+  <a href='https://open.spotify.com/episode/71RYR5gElEW0ZvCcJ7dpc5?si=p7YnZkrzQOiQa9YSmd8eLg' target='_blank' rel='noopener noreferrer nofollow'>
+    #8 – Proteinpulver und Co. – Brauche ich das alles?
+  </a> im Podcast <a href='https://open.spotify.com/show/58a1nYt1EAIW11QBAtrftW' target='_blank' rel='noopener noreferrer nofollow'>'Fit Up! Fundiertes Sportwissen'</a>, Februar 2025.
+</li>
+
+<li class='aligned' style='margin-top: 10px;'> 
+  <a href='https://open.spotify.com/episode/73OCXOrDo7i5zvBQsgDsbm?si=d7Ne2kfgT5uHbiXKBdIuRg' target='_blank' rel='noopener noreferrer nofollow'>
+    #6 – Die häufigsten Ernährungsfehler
+  </a> im Podcast <a href='https://open.spotify.com/show/58a1nYt1EAIW11QBAtrftW' target='_blank' rel='noopener noreferrer nofollow'>'Fit Up! Fundiertes Sportwissen'</a>, Januar 2025.
+</li>
+
 <li class='aligned'> 
   <a href='https://open.spotify.com/episode/2X8K5tTYOOifHKczXDOR9k?si=JQEjpowoS-WE8pEFbRCTiw' target='_blank' rel='noopener noreferrer nofollow'>
     #81 – Diät ohne Kalorien tracken, Stoffwechsel und Beta-Alanin
@@ -137,24 +157,6 @@ sport:
   <a href='https://open.spotify.com/episode/3TvfvzdlwW80ggM60KXvA6?si=c9hGGkXLTFGrOZSLpRQ3-A' target='_blank' rel='noopener noreferrer nofollow'>
     #69 – Übertreibt Netflix mal wieder? You are what you eat
   </a> im Podcast <a href='https://open.spotify.com/show/1qPyLm6guymbU1JuMIQQJR' target='_blank' rel='noopener noreferrer nofollow'>'Fuel Your Body'</a> mit Miri Krug, Januar 2024.
-</li>
-
-<li class='aligned' style='margin-top: 10px;'> 
-  <a href='https://open.spotify.com/episode/2wDhwV9jXDZq5AuvCliQNN?si=qRRQB8XYQTClh-STJg4Jpw' target='_blank' rel='noopener noreferrer nofollow'>
-    #7 – Die Grundlagen der Sporternährung
-  </a> im Podcast <a href='https://open.spotify.com/show/1q9XvTbqvC7aEfrn5ObBWH' target='_blank' rel='noopener noreferrer nofollow'>'Fit Up! Fundiertes Sportwissen'</a>, Februar 2024.
-</li>
-
-<li class='aligned' style='margin-top: 10px;'> 
-  <a href='https://open.spotify.com/episode/71RYR5gElEW0ZvCcJ7dpc5?si=p7YnZkrzQOiQa9YSmd8eLg' target='_blank' rel='noopener noreferrer nofollow'>
-    #8 – Proteinpulver und Co. – Brauche ich das alles?
-  </a> im Podcast <a href='https://open.spotify.com/show/1q9XvTbqvC7aEfrn5ObBWH' target='_blank' rel='noopener noreferrer nofollow'>'Fit Up! Fundiertes Sportwissen'</a>, Februar 2024.
-</li>
-
-<li class='aligned' style='margin-top: 10px;'> 
-  <a href='https://open.spotify.com/episode/73OCXOrDo7i5zvBQsgDsbm?si=d7Ne2kfgT5uHbiXKBdIuRg' target='_blank' rel='noopener noreferrer nofollow'>
-    #6 – Die häufigsten Ernährungsfehler
-  </a> im Podcast <a href='https://open.spotify.com/show/1q9XvTbqvC7aEfrn5ObBWH' target='_blank' rel='noopener noreferrer nofollow'>'Fit Up! Fundiertes Sportwissen'</a>, Januar 2024.
 </li>
 
 <li class='aligned' style='margin-top: 10px;'>  

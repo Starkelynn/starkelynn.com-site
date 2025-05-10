@@ -229,3 +229,77 @@ socials
     font-size: 1.05rem;
     line-height: 1.5;
 }
+
+
+
+
+
+
+
+.hero-onepager {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+
+.hero-onepager__headline {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 1.2rem;
+    margin-top: 0;
+}
+
+.hero-onepager__subline {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-top: 4rem;
+}
+
+.hero-onepager__signature {
+    display: inline-block;
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    transform: rotateZ(-5deg);
+    vertical-align: top;
+    color: #99A97E;
+}
+
+
+@media (max-width: 800px) {
+    .hero-onepager {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .hero-onepager__headline {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        padding: 0 1rem;
+    }
+
+    .hero-onepager__subline {
+        font-size: 1.25rem;
+        padding: 0 1rem;
+    }
+
+    .hero-onepager__signature {
+        font-size: 1.6rem;
+    }
+}
+
+.hero-highlight {
+    background: #99A97E;
+    padding: 0.1em 0.25em;
+    border-radius: 0.15em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    line-height: 1.5;
+}
+
+.topmargin {
+    margin-top: 2rem;
+}

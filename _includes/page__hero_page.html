@@ -1,0 +1,75 @@
+{% capture overlay_img_path %}{{ page.header.overlay_image | relative_url }}{% endcapture %}
+
+{% if page.header.overlay_filter contains "gradient" %}
+  {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
+{% elsif page.header.overlay_filter contains "rgba" %}
+  {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
+  {% capture overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}){% endcapture %}
+{% elsif page.header.overlay_filter %}
+  {% capture overlay_filter %}rgba(0, 0, 0, {{ page.header.overlay_filter }}){% endcapture %}
+  {% capture overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}){% endcapture %}
+{% endif %}
+
+{% if page.header.image_description %}
+  {% assign image_description = page.header.image_description %}
+{% else %}
+  {% assign image_description = page.title %}
+{% endif %}
+
+{% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
+
+<style>
+  /* Default styles for larger screens */
+  .desktop {
+    display: block;
+  }
+
+  /* Default styles for smaller screens */
+  .mobile {
+    display: none;
+  }
+
+  /* Media query for screens smaller than 800px */
+  @media (max-width: 800px) {
+    .desktop {
+      display: none;
+    }
+
+    .mobile {
+      display: block;
+    }
+  }
+</style>
+
+<div class="page__hero--overlay desktop"
+     style="background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('/assets/images/ls-header-food-training.webp');"
+>
+  <div class="wrapper hero-onepager">
+    <p class="hero-onepager__headline">
+      Ich unterstütze Leistungssportler und ambitionierte Freizeitsportler dabei, <span class="hero-highlight">in 60 Tagen ihre neue Bestform</span> zu erreichen – mit maximal 15 Minuten Zeitaufwand pro Tag.
+
+    </p>
+    <p class="hero-onepager__subline">
+      Evidenzbasierte Sporternährung mit <br><span class="hero-onepager__signature">Lynn Starke</span>
+    </p>
+
+    <a rel='noopener noreferrer nofollow' target='_blank' href="/contact" class="btn btn--light-outline btn--large topmargin">Buche jetzt dein kostenloses Erstgespräch</a>
+  </div>
+</div>
+
+<div class="page__hero--overlay mobile"
+     style="background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('/assets/images/ls-header-food-training-mobile.webp');"
+>
+  <div class="wrapper hero-onepager">
+    <p class="hero-onepager__headline">
+      Ich unterstütze Leistungssportler und ambitionierte Freizeitsportler dabei, <span class="hero-highlight">in 60 Tagen ihre neue Bestform</span> zu erreichen – mit maximal 15 Minuten Zeitaufwand pro Tag.
+
+    </p>
+
+    <p class="hero-onepager__subline">
+      Evidenzbasierte Sporternährung mit <br><span class="hero-onepager__signature">Lynn Starke</span>
+    </p>
+
+    <a rel='noopener noreferrer nofollow' target='_blank' href="/contact" class="btn btn--light-outline btn--large topmargin">Buche jetzt dein kostenloses Erstgespräch</a>
+  </div>
+</div>

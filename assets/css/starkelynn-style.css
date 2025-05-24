@@ -6,18 +6,18 @@ h2 {
 
 /* Style für Buttons */
 .button {
-    background-color: #ADBC92;
+    background-color: #8fa04c;
     color: black !important;
     text-decoration: none !important;
-    border: 1px solid #99A97E;
+    border: 1px solid #809044;
     border-radius: 5px;
     padding: 10px 20px;
     transition: background-color 0.3s ease, border-color 0.3s ease;
 
     /* Hover-Effekt */
     &:hover {
-        background-color: #99A97E;
-        border-color: #ADBC92;
+        background-color: #72603c;
+        border-color: #635235;
         color: black !important;
     }
 }
@@ -31,10 +31,10 @@ img.fr-small-img {
 }
 
 .emp-box {
-    border: 2px solid #ADBC92;
+    border: 2px solid rgb(143, 160, 76);
     border-radius: 4px;
     text-align: center;
-    background-color: rgba(173, 188, 146, 0.2);
+    background-color: rgba(143, 160, 76, 0.2);
     padding: 1rem;
     margin-bottom: 20px;
 }
@@ -102,14 +102,14 @@ socials
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: rgb(173, 188, 146);
+  background: #8fa04c;
   font-size: 24px;
   line-height: 50px;
   text-align: center;
   transition: background-color 0.3s ease;
 
   &:hover {
-    background: rgb(246, 210, 122);
+    background: #272220;
   }
 
 }
@@ -140,7 +140,7 @@ socials
 }
 
 .service-card {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(245, 243, 234, 0.7);
     border-radius: 0.75rem;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     overflow: hidden;
@@ -183,7 +183,7 @@ socials
 }
 
 .offer-card {
-    background-color: #fff;
+    background-color: #f5f3ea;
     border-radius: 0.75rem;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     padding: 2rem;
@@ -238,7 +238,7 @@ socials
 
 .hero-onepager {
     text-align: center;
-    color: white;
+    color: #f5f3ea;
     margin: 0 auto;
 }
 
@@ -265,7 +265,7 @@ socials
     margin-top: 1rem;
     transform: rotateZ(-5deg);
     vertical-align: top;
-    color: #99A97E;
+    color: #8fa04c;
 }
 
 
@@ -292,7 +292,7 @@ socials
 }
 
 .hero-highlight {
-    background: #99A97E;
+    background: #8fa04c;
     padding: 0.1em 0.25em;
     border-radius: 0.15em;
     box-decoration-break: clone;

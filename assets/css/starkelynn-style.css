@@ -31,13 +31,14 @@ img.fr-small-img {
 }
 
 .emp-box {
-    border: 2px solid rgb(143, 160, 76);
+    border: 3px solid #f4e7b0;
     border-radius: 4px;
     text-align: center;
-    background-color: rgba(143, 160, 76, 0.2);
+    background-color: rgba(244, 231, 176, 0.3);
     padding: 1rem;
     margin-bottom: 20px;
 }
+
 
 
 .about-box {
@@ -123,7 +124,7 @@ socials
 .clean-divider {
     border: none;
     height: 1px;
-    background-color: #ccc; /
+    background-color: #a5a093; /
 }
 
 
@@ -337,16 +338,16 @@ socials
 
 
 
- .bio-flex {
-     display: flex;
-     flex-wrap: wrap;
-     gap: 2rem;
-     align-items: center;
-     justify-content: center;
-     max-width: 1100px;
-     margin: 2rem auto 0;
-     padding: 0 1rem;
- }
+.bio-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 2rem auto 0;
+    padding: 0 1rem;
+}
 
 .bio-image {
     flex: 1 1 300px;
@@ -361,16 +362,37 @@ socials
 }
 
 .bio-text {
+    margin-top: 0;
+    display: block;
     flex: 1 1 300px;
     max-width: 600px;
-    display: flex;
-    align-items: center;
+    text-align: left;
+}
+
+
+.bio-text h3 {
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 .bio-text p {
     font-size: 1rem;
     line-height: 1.6;
-    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.bio-text ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0 0 1.5rem 0;
+}
+
+.bio-text li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-left: 0;
 }
 
 @media (max-width: 768px) {
@@ -380,10 +402,12 @@ socials
     }
 
     .bio-text {
-        align-items: flex-start;
+        text-align: left;
     }
 
+    .bio-text h3,
     .bio-text p {
         text-align: left;
     }
 }
+

@@ -1,8 +1,9 @@
 main:
-  - title: "Angebote"
-    url: /offerings
   - title: "Über mich"
-    url: /about
+    url: /#ueber
+  - title: "Angebote"
+    url: /#angebote
   - title: "Kundenfeedback"
-    url: /kundenfeedback
+    url: /#kundenfeedback
+
   

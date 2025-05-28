@@ -1,23 +1,86 @@
-/* Überschriften farblich anpassen */
-h2 {
-    color: #36452E !important;
+
+
+/* montserrat-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v29-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
+/* inter-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-italic - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/inter-v18-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v18-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-700italic - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts/inter-v18-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+
+
+/* Headings: Montserrat regular */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400 !important;
+}
+
+/* Body text: Inter regular */
+body, p, li, a, span, input, textarea, button, blockquote {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 400 !important;
+}
+
+/* Optional: Inter bold for <strong> or <b> */
+strong, b {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+
+
 
 
 /* Style für Buttons */
 .button {
-    background-color: #ADBC92;
+    background-color: #8fa04c;
     color: black !important;
     text-decoration: none !important;
-    border: 1px solid #99A97E;
+    border: 1px solid #809044;
     border-radius: 5px;
     padding: 10px 20px;
     transition: background-color 0.3s ease, border-color 0.3s ease;
 
     /* Hover-Effekt */
     &:hover {
-        background-color: #99A97E;
-        border-color: #ADBC92;
+        background-color: #72603c;
+        border-color: #635235;
         color: black !important;
     }
 }
@@ -31,13 +94,14 @@ img.fr-small-img {
 }
 
 .emp-box {
-    border: 2px solid #ADBC92;
-    border-radius: 4px;
+    border: 2px solid #a5a093;
+    border-radius: 5px;
     text-align: center;
-    background-color: rgba(173, 188, 146, 0.2);
+    background-color: rgba(165, 160, 147, 0.3);
     padding: 1rem;
     margin-bottom: 20px;
 }
+
 
 
 .about-box {
@@ -102,14 +166,14 @@ socials
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: rgb(173, 188, 146);
+  background: #8fa04c;
   font-size: 24px;
   line-height: 50px;
   text-align: center;
   transition: background-color 0.3s ease;
 
   &:hover {
-    background: rgb(246, 210, 122);
+    background: #272220;
   }
 
 }
@@ -123,7 +187,7 @@ socials
 .clean-divider {
     border: none;
     height: 1px;
-    background-color: #ccc; /
+    background-color: #a5a093; /
 }
 
 
@@ -140,7 +204,7 @@ socials
 }
 
 .service-card {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(143, 160, 76, 0.1);
     border-radius: 0.75rem;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     overflow: hidden;
@@ -183,7 +247,7 @@ socials
 }
 
 .offer-card {
-    background-color: #fff;
+    background-color: #f5f3ea;
     border-radius: 0.75rem;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     padding: 2rem;
@@ -229,3 +293,186 @@ socials
     font-size: 1.05rem;
     line-height: 1.5;
 }
+
+
+
+
+
+
+
+.hero-onepager {
+    text-align: center;
+    color: #f5f3ea;
+    margin: 0 auto;
+}
+
+.hero-onepager__headline {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 1.2rem;
+    margin-top: 0;
+}
+
+.hero-onepager__subline {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-top: 4rem;
+}
+
+.hero-onepager__signature {
+    display: inline-block;
+    font-family: 'Pacifico', cursive !important;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    transform: rotateZ(-5deg);
+    vertical-align: top;
+    color: #8fa04c;
+}
+
+
+@media (max-width: 800px) {
+    .hero-onepager {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .hero-onepager__headline {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        padding: 0 1rem;
+    }
+
+    .hero-onepager__subline {
+        font-size: 1.25rem;
+        padding: 0 1rem;
+    }
+
+    .hero-onepager__signature {
+        font-size: 1.6rem;
+    }
+}
+
+.hero-highlight {
+    background: #8fa04c;
+    padding: 0.1em 0.25em;
+    border-radius: 0.15em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    line-height: 1.5;
+}
+
+.topmargin {
+    margin-top: 2rem;
+}
+
+
+
+
+
+.feedback-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.feedback-card {
+    background: white;
+    color: #333;
+    padding: 1.25rem 1rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.feedback-card small {
+    display: block;
+    margin-top: 0.5rem;
+    color: #666;
+    font-size: 0.85rem;
+}
+
+
+
+
+.bio-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 2rem auto 0;
+    padding: 0 1rem;
+}
+
+.bio-image {
+    flex: 1 1 300px;
+    max-width: 400px;
+}
+
+.bio-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.bio-text {
+    margin-top: 0;
+    display: block;
+    flex: 1 1 300px;
+    max-width: 600px;
+    text-align: left;
+}
+
+
+.bio-text h3 {
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.bio-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.bio-text ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0 0 1.5rem 0;
+}
+
+.bio-text li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-left: 0;
+}
+
+@media (max-width: 768px) {
+    .bio-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bio-text {
+        text-align: left;
+    }
+
+    .bio-text h3,
+    .bio-text p {
+        text-align: left;
+    }
+}
+
+
+

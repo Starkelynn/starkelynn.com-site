@@ -323,49 +323,46 @@ socials
 
 .hero-onepager__signature {
     display: inline-block;
-    font-family: 'Pacifico', cursive !important;
-    font-size: 2rem;
-    font-weight: 400;
-    margin-top: 1rem;
-    transform: rotateZ(-5deg);
+    font-size: 1.5rem;
+    margin-top: 0.75rem;
     vertical-align: top;
     color: #8fa04c;
 }
 
 
 @media (max-width: 800px) {
-    .hero-onepager {
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-    }
+.hero-onepager {
+padding-top: 3rem;
+padding-bottom: 3rem;
+}
 
-    .hero-onepager__headline {
-        font-size: 1.5rem;
-        margin-bottom: 1rem;
-        padding: 0 1rem;
-    }
+.hero-onepager__headline {
+font-size: 1.5rem;
+margin-bottom: 1rem;
+padding: 0 1rem;
+}
 
-    .hero-onepager__subline {
-        font-size: 1.25rem;
-        padding: 0 1rem;
-    }
+.hero-onepager__subline {
+font-size: 1.25rem;
+padding: 0 1rem;
+}
 
-    .hero-onepager__signature {
-        font-size: 1.6rem;
-    }
+.hero-onepager__signature {
+font-size: 1.6rem;
+}
 }
 
 .hero-highlight {
-    background: #8fa04c;
-    padding: 0.1em 0.25em;
-    border-radius: 0.15em;
-    box-decoration-break: clone;
-    -webkit-box-decoration-break: clone;
-    line-height: 1.5;
+background: #8fa04c;
+padding: 0.1em 0.25em;
+border-radius: 0.15em;
+box-decoration-break: clone;
+-webkit-box-decoration-break: clone;
+line-height: 1.5;
 }
 
 .topmargin {
-    margin-top: 2rem;
+margin-top: 2rem;
 }
 
 
@@ -373,105 +370,105 @@ socials
 
 
 .feedback-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 1.5rem;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 1rem;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+gap: 1.5rem;
+max-width: 1000px;
+margin: 0 auto;
+padding: 0 1rem;
 }
 
 .feedback-card {
-    background: white;
-    color: #333;
-    padding: 1.25rem 1rem;
-    border-radius: 0.75rem;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-    font-size: 0.95rem;
-    line-height: 1.5;
+background: white;
+color: #333;
+padding: 1.25rem 1rem;
+border-radius: 0.75rem;
+box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+font-size: 0.95rem;
+line-height: 1.5;
 }
 
 .feedback-card small {
-    display: block;
-    margin-top: 0.5rem;
-    color: #666;
-    font-size: 0.85rem;
+display: block;
+margin-top: 0.5rem;
+color: #666;
+font-size: 0.85rem;
 }
 
 
 
 
 .bio-flex {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    align-items: flex-start;
-    justify-content: center;
-    max-width: 1100px;
-    margin: 2rem auto 0;
-    padding: 0 1rem;
+display: flex;
+flex-wrap: wrap;
+gap: 2rem;
+align-items: flex-start;
+justify-content: center;
+max-width: 1100px;
+margin: 2rem auto 0;
+padding: 0 1rem;
 }
 
 .bio-image {
-    flex: 1 1 300px;
-    max-width: 400px;
+flex: 1 1 300px;
+max-width: 400px;
 }
 
 .bio-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 0.75rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+width: 100%;
+height: auto;
+border-radius: 0.75rem;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .bio-text {
-    margin-top: 0;
-    display: block;
-    flex: 1 1 300px;
-    max-width: 600px;
-    text-align: left;
+margin-top: 0;
+display: block;
+flex: 1 1 300px;
+max-width: 600px;
+text-align: left;
 }
 
 
 .bio-text h3 {
-    font-size: 1.4rem;
-    margin-top: 0;
-    margin-bottom: 1rem;
+font-size: 1.4rem;
+margin-top: 0;
+margin-bottom: 1rem;
 }
 
 .bio-text p {
-    font-size: 1rem;
-    line-height: 1.6;
-    margin-bottom: 1rem;
+font-size: 1rem;
+line-height: 1.6;
+margin-bottom: 1rem;
 }
 
 .bio-text ul {
-    list-style: none;
-    padding-left: 0;
-    margin: 0 0 1.5rem 0;
+list-style: none;
+padding-left: 0;
+margin: 0 0 1.5rem 0;
 }
 
 .bio-text li {
-    margin-bottom: 0.5rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    padding-left: 0;
+margin-bottom: 0.5rem;
+font-size: 1rem;
+line-height: 1.5;
+padding-left: 0;
 }
 
 @media (max-width: 768px) {
-    .bio-flex {
-        flex-direction: column;
-        text-align: center;
-    }
+.bio-flex {
+flex-direction: column;
+text-align: center;
+}
 
-    .bio-text {
-        text-align: left;
-    }
+.bio-text {
+text-align: left;
+}
 
-    .bio-text h3,
-    .bio-text p {
-        text-align: left;
-    }
+.bio-text h3,
+.bio-text p {
+text-align: left;
+}
 }
 
 

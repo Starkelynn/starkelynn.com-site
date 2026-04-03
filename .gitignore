@@ -3,6 +3,7 @@ _site
 .jekyll-metadata
 Gemfile.lock
 .idea
+briefing/
 assets/images/.DS_Store
 */.DS_Store
 *.DS_Store

@@ -169,7 +169,10 @@ header:
           <h3>Guides und Seminare</h3>
           <p>Wenn du gezielt in einzelne Themen einsteigen oder Inhalte flexibel für dich nutzen willst, findest du hier die aktuellen digitalen Angebote. Sie sind kompakt, evidenzbasiert und so aufgebaut, dass du die Inhalte direkt in Training, Wettkampf und Alltag anwenden kannst.</p>
         </div>
-        <span class="guides-panel__toggle">Details ansehen</span>
+        <span class="guides-panel__toggle">
+          <span class="guides-panel__toggle-label guides-panel__toggle-label--closed">Details ansehen</span>
+          <span class="guides-panel__toggle-label guides-panel__toggle-label--open">Details verbergen</span>
+        </span>
       </summary>
 
       <div class="guides-panel__body">
@@ -278,16 +281,17 @@ header:
     </div>
 
     <div class="contact-panel" data-reveal data-reveal-delay="120ms">
-      <h2 class="center">
-        Buche dir hier dein Erstgespräch
-        <br>
-        <small>15 Minuten, komplett kostenfrei</small>
-      </h2>
+      <div class="contact-panel__intro">
+        <h2 class="center">
+          Buche dir hier dein Erstgespräch
+          <br>
+          <small>15 Minuten, komplett kostenfrei</small>
+        </h2>
+        <a class="btn contact-email" href="mailto:info@starkelynn.com">Oder per Mail anfragen</a>
+      </div>
 
-      <div class="calendly-inline-widget" data-url="https://calendly.com/nubymi_lynn/erstgespraech?primary_color=647858" style="min-width:320px;height:700px; margin-bottom: 1rem;"></div>
+      <div class="calendly-inline-widget" data-url="https://calendly.com/nubymi_lynn/erstgespraech?primary_color=647858" style="height:700px;"></div>
       <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-
-      <a class="btn btn--primary contact-email" href="mailto:info@starkelynn.com">Oder schreib per <i class="fa fa-fw fa-envelope" aria-hidden="true"></i>E-Mail an info@starkelynn.com</a>
     </div>
   </div>
 </section>

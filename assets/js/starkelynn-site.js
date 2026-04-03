@@ -67,12 +67,68 @@
     var dots = carousel.querySelectorAll("[data-carousel-dot]");
     var prev = carousel.querySelector("[data-carousel-prev]");
     var next = carousel.querySelector("[data-carousel-next]");
+    var viewport = carousel.querySelector(".carousel__viewport");
     var autoplay = parseInt(carousel.getAttribute("data-carousel-autoplay"), 10);
+    var heightMode = carousel.getAttribute("data-carousel-height") || "max";
     var activeIndex = 0;
     var timerId = null;
+    var resizeQueued = false;
 
     if (!slides.length) {
       return;
+    }
+
+    function syncHeight() {
+      var hiddenStates;
+      var maxHeight = 0;
+      var activeSlide;
+
+      if (!viewport) {
+        return;
+      }
+
+      if (heightMode === "active") {
+        activeSlide = slides[activeIndex];
+        viewport.style.minHeight = activeSlide
+          ? activeSlide.getBoundingClientRect().height + "px"
+          : "";
+        return;
+      }
+
+      hiddenStates = Array.prototype.map.call(slides, function (slide) {
+        return slide.hidden;
+      });
+
+      Array.prototype.forEach.call(slides, function (slide, slideIndex) {
+        Array.prototype.forEach.call(slides, function (item, itemIndex) {
+          item.hidden = itemIndex !== slideIndex;
+        });
+
+        maxHeight = Math.max(maxHeight, slide.getBoundingClientRect().height);
+      });
+
+      Array.prototype.forEach.call(slides, function (slide, slideIndex) {
+        slide.hidden = hiddenStates[slideIndex];
+      });
+
+      viewport.style.minHeight = maxHeight ? maxHeight + "px" : "";
+    }
+
+    function queueHeightSync() {
+      if (heightMode === "active") {
+        syncHeight();
+        return;
+      }
+
+      if (resizeQueued) {
+        return;
+      }
+
+      resizeQueued = true;
+      window.requestAnimationFrame(function () {
+        resizeQueued = false;
+        syncHeight();
+      });
     }
 
     function render(index) {
@@ -89,6 +145,8 @@
         dot.classList.toggle("is-active", isActive);
         dot.setAttribute("aria-selected", isActive ? "true" : "false");
       });
+
+      queueHeightSync();
     }
 
     function goTo(index) {
@@ -149,9 +207,15 @@
     carousel.addEventListener("mouseleave", startAutoplay);
     carousel.addEventListener("focusin", stopAutoplay);
     carousel.addEventListener("focusout", startAutoplay);
+    window.addEventListener("resize", queueHeightSync);
 
     render(0);
+    queueHeightSync();
     startAutoplay();
+
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(queueHeightSync);
+    }
   }
 
   function initCarousels() {

@@ -232,50 +232,17 @@
     }
 
     Array.prototype.forEach.call(videos, function (video) {
-      var visual = video.closest(".hero-media__visual");
+      var playPromise;
 
-      if (!visual) {
+      if (prefersReducedMotion) {
         return;
       }
 
-      function markReady() {
-        visual.classList.add("is-video-ready");
+      playPromise = video.play();
+
+      if (playPromise && typeof playPromise.catch === "function") {
+        playPromise.catch(function () {});
       }
-
-      function handlePlayAttempt() {
-        var playPromise;
-
-        if (prefersReducedMotion) {
-          return;
-        }
-
-        playPromise = video.play();
-
-        if (playPromise && typeof playPromise.catch === "function") {
-          playPromise.catch(function () {
-            visual.classList.remove("is-video-ready");
-          });
-        }
-      }
-
-      if (video.readyState >= 2) {
-        markReady();
-        handlePlayAttempt();
-        return;
-      }
-
-      video.addEventListener("loadeddata", markReady, { once: true });
-      video.addEventListener("canplay", markReady, { once: true });
-      video.addEventListener("playing", markReady, { once: true });
-      video.addEventListener(
-        "error",
-        function () {
-          visual.classList.remove("is-video-ready");
-        },
-        { once: true }
-      );
-
-      handlePlayAttempt();
     });
   }
 

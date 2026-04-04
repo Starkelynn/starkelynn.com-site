@@ -6,35 +6,28 @@
 
 {% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
 
-<div class="page__hero--overlay hero-media hero-media--desktop">
+<div class="page__hero--overlay hero-media">
   <div class="hero-media__visual" aria-hidden="true">
-    <img class="hero-media__fallback" src="/assets/images/hero/hero-fallback-desktop.webp" alt="">
-    <video class="hero-media__video" autoplay muted loop playsinline preload="metadata" poster="/assets/images/hero/hero-fallback-desktop.webp">
-      <source src="/assets/video/hero-endurance-desktop.mp4" type="video/mp4">
-    </video>
-    <span class="hero-media__veil"></span>
-  </div>
-
-  <div class="wrapper hero-onepager">
-    <p class="hero-onepager__headline">
-      Für Endurance und Hybrid Athleten:<br> <span class="hero-highlight">In 90 Tagen zu deiner neuen Bestform.</span><br> Mit maximal 15 Minuten Zeitaufwand pro Tag.
-    </p>
-    <p class="hero-onepager__subline">
-      Evidenzbasierte Sporternährung mit <br><span class="hero-onepager__signature">Lynn Starke</span>
-    </p>
-
-    <a href="/#kontakt" class="btn btn--light-outline btn--large topmargin hero-cta">
-      <span class="status-dot hero-cta__dot" aria-hidden="true"></span>
-      Jetzt deinen kostenlosen Performance-Check sichern
-    </a>
-  </div>
-</div>
-
-<div class="page__hero--overlay hero-media hero-media--mobile">
-  <div class="hero-media__visual" aria-hidden="true">
-    <img class="hero-media__fallback" src="/assets/images/hero/hero-fallback-mobile.webp" alt="">
-    <video class="hero-media__video" autoplay muted loop playsinline preload="metadata" poster="/assets/images/hero/hero-fallback-mobile.webp">
-      <source src="/assets/video/hero-endurance-mobile.mp4" type="video/mp4">
+    <picture class="hero-media__fallback-wrap">
+      <source media="(max-width: 800px)" srcset="/assets/images/hero/hero-fallback-mobile.webp">
+      <img
+        class="hero-media__fallback"
+        src="/assets/images/hero/hero-fallback-desktop.webp"
+        alt=""
+        fetchpriority="high"
+        loading="eager"
+        decoding="async"
+      >
+    </picture>
+    <video
+      class="hero-media__video"
+      muted
+      loop
+      playsinline
+      preload="none"
+      poster="/assets/images/hero/hero-fallback-desktop.webp"
+    >
+      <source media="(min-width: 801px)" src="/assets/video/hero-endurance-desktop.mp4" type="video/mp4">
     </video>
     <span class="hero-media__veil"></span>
   </div>

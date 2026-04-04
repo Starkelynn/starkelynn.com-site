@@ -21,21 +21,23 @@
     </picture>
     <video
       class="hero-media__video"
+      autoplay
       muted
       loop
       playsinline
-      preload="none"
+      preload="metadata"
       poster="/assets/images/hero/hero-fallback-desktop.webp"
     >
+      <source media="(max-width: 800px)" src="/assets/video/hero-endurance-mobile.mp4" type="video/mp4">
       <source media="(min-width: 801px)" src="/assets/video/hero-endurance-desktop.mp4" type="video/mp4">
     </video>
     <span class="hero-media__veil"></span>
   </div>
 
   <div class="wrapper hero-onepager">
-    <p class="hero-onepager__headline">
+    <h1 class="hero-onepager__headline">
       Für Endurance und Hybrid Athleten:<br> <span class="hero-highlight">In 90 Tagen zu deiner neuen Bestform.</span><br> Mit maximal 15 Minuten Zeitaufwand pro Tag.
-    </p>
+    </h1>
     <p class="hero-onepager__subline">
       Evidenzbasierte Sporternährung mit <br><span class="hero-onepager__signature">Lynn Starke</span>
     </p>

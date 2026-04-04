@@ -225,30 +225,151 @@
   }
 
   function initHeroMedia() {
-    var videos = document.querySelectorAll(".hero-media__video");
+    var video = document.querySelector(".hero-media__video");
+    var visual = video && video.closest(".hero-media__visual");
+    var connection =
+      navigator.connection ||
+      navigator.mozConnection ||
+      navigator.webkitConnection;
+    var startDelay = 200;
+    var playPromise;
 
-    if (!videos.length) {
+    if (!video || !visual) {
       return;
     }
 
-    Array.prototype.forEach.call(videos, function (video) {
-      var playPromise;
+    if (
+      prefersReducedMotion ||
+      (connection && connection.saveData) ||
+      !window.matchMedia("(min-width: 801px)").matches
+    ) {
+      return;
+    }
 
-      if (prefersReducedMotion) {
-        return;
-      }
+    if (!video.querySelector("source")) {
+      return;
+    }
 
+    function startVideo() {
+      video.muted = true;
+      video.defaultMuted = true;
+      video.playsInline = true;
+      video.autoplay = true;
+      video.loop = true;
+      video.setAttribute("autoplay", "");
+      video.setAttribute("muted", "");
+      video.setAttribute("playsinline", "");
+
+      video.addEventListener(
+        "loadeddata",
+        function () {
+          visual.classList.add("is-video-ready");
+          video.play().catch(function () {});
+        },
+        { once: true }
+      );
+
+      video.addEventListener(
+        "canplay",
+        function () {
+          visual.classList.add("is-video-ready");
+          video.play().catch(function () {});
+        },
+        { once: true }
+      );
+
+      video.addEventListener(
+        "playing",
+        function () {
+          visual.classList.add("is-video-ready");
+        },
+        { once: true }
+      );
+
+      video.load();
       playPromise = video.play();
 
       if (playPromise && typeof playPromise.catch === "function") {
-        playPromise.catch(function () {});
+        playPromise.catch(function () {
+          visual.classList.remove("is-video-ready");
+        });
       }
-    });
+
+      window.setTimeout(function () {
+        if (video.currentTime > 0 || visual.classList.contains("is-video-ready")) {
+          return;
+        }
+
+        video.play().catch(function () {});
+      }, 1800);
+    }
+
+    window.setTimeout(startVideo, startDelay);
+  }
+
+  function initCalendlyWidget() {
+    var widget = document.querySelector(".calendly-inline-widget[data-url]");
+    var isLoaded = false;
+
+    if (!widget) {
+      return;
+    }
+
+    function loadCalendly() {
+      var script;
+
+      if (isLoaded) {
+        return;
+      }
+
+      isLoaded = true;
+      script = document.createElement("script");
+      script.src = "https://assets.calendly.com/assets/external/widget.js";
+      script.async = true;
+      script.onload = function () {
+        if (
+          window.Calendly &&
+          typeof window.Calendly.initInlineWidget === "function" &&
+          !widget.querySelector("iframe")
+        ) {
+          window.Calendly.initInlineWidget({
+            url: widget.getAttribute("data-url"),
+            parentElement: widget
+          });
+        }
+      };
+      document.body.appendChild(script);
+    }
+
+    if (!("IntersectionObserver" in window)) {
+      loadCalendly();
+      return;
+    }
+
+    new IntersectionObserver(
+      function (entries, observer) {
+        if (!entries[0].isIntersecting) {
+          return;
+        }
+
+        observer.disconnect();
+        loadCalendly();
+      },
+      { rootMargin: "320px 0px" }
+    ).observe(widget);
   }
 
   document.addEventListener("DOMContentLoaded", function () {
-    initHeroMedia();
     initRevealAnimations();
     initCarousels();
+    initCalendlyWidget();
   });
+
+  window.addEventListener(
+    "load",
+    function () {
+      initHeroMedia();
+    },
+    { once: true }
+  );
 })();

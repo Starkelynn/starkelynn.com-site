@@ -231,21 +231,30 @@
       navigator.connection ||
       navigator.mozConnection ||
       navigator.webkitConnection;
-    var startDelay = 200;
+    var mobileQuery =
+      window.matchMedia && window.matchMedia("(max-width: 800px)");
     var playPromise;
     var retryTimer = null;
     var retryCount = 0;
-    var maxRetries = 4;
+    var maxRetries = 8;
+    var hasStarted = false;
 
     if (!video || !visual) {
       return;
     }
 
-    if (prefersReducedMotion || (connection && connection.saveData)) {
+    if (
+      prefersReducedMotion ||
+      (connection &&
+        (connection.saveData || connection.effectiveType === "slow-2g"))
+    ) {
       return;
     }
 
-    if (!video.querySelector("source")) {
+    if (
+      !video.getAttribute("data-src-mobile") ||
+      !video.getAttribute("data-src-desktop")
+    ) {
       return;
     }
 
@@ -255,6 +264,41 @@
 
     function clearReady() {
       visual.classList.remove("is-video-ready");
+    }
+
+    function getMediaSrc() {
+      var isMobile = mobileQuery && mobileQuery.matches;
+
+      return video.getAttribute(
+        isMobile ? "data-src-mobile" : "data-src-desktop"
+      );
+    }
+
+    function ensureSource() {
+      var src = getMediaSrc();
+
+      if (video.getAttribute("src") === src) {
+        return false;
+      }
+
+      video.setAttribute("src", src);
+      return true;
+    }
+
+    function revealWhenFramePainted() {
+      if (
+        typeof video.requestVideoFrameCallback === "function" &&
+        !hasStarted
+      ) {
+        video.requestVideoFrameCallback(function () {
+          hasStarted = true;
+          markReady();
+        });
+        return;
+      }
+
+      hasStarted = true;
+      markReady();
     }
 
     function scheduleRetry(delay, shouldReload) {
@@ -270,13 +314,16 @@
     }
 
     function attemptPlay(shouldReload) {
-      if (shouldReload) {
+      var sourceChanged = ensureSource();
+
+      if (shouldReload || sourceChanged) {
         video.load();
       }
+
       playPromise = video.play();
 
-      if (video.readyState >= 2 || video.currentTime > 0 || !video.paused) {
-        markReady();
+      if (video.currentTime > 0 || (!video.paused && video.readyState >= 2)) {
+        revealWhenFramePainted();
       }
 
       if (playPromise && typeof playPromise.catch === "function") {
@@ -297,29 +344,39 @@
       video.setAttribute("muted", "");
       video.setAttribute("playsinline", "");
 
-      video.addEventListener("loadeddata", markReady);
       video.addEventListener("loadedmetadata", function () {
         attemptPlay(false);
       });
       video.addEventListener("canplay", function () {
-        markReady();
         attemptPlay(false);
       });
       video.addEventListener("playing", function () {
-        markReady();
+        retryCount = 0;
+        revealWhenFramePainted();
         window.clearTimeout(retryTimer);
       });
       video.addEventListener("timeupdate", function () {
         if (video.currentTime > 0) {
+          hasStarted = true;
           markReady();
         }
       });
       video.addEventListener("pause", function () {
-        if (video.currentTime > 0.25) {
+        if (document.visibilityState !== "visible") {
           return;
         }
 
-        scheduleRetry(600, false);
+        scheduleRetry(video.currentTime > 0.25 ? 900 : 600, false);
+      });
+      video.addEventListener("stalled", function () {
+        if (!hasStarted) {
+          scheduleRetry(900, false);
+        }
+      });
+      video.addEventListener("waiting", function () {
+        if (!hasStarted) {
+          scheduleRetry(900, false);
+        }
       });
       video.addEventListener("error", function () {
         clearReady();
@@ -330,15 +387,43 @@
       scheduleRetry(1400, false);
     }
 
-    window.setTimeout(startVideo, startDelay);
+    startVideo();
 
     document.addEventListener("visibilitychange", function () {
-      if (document.visibilityState !== "visible" || video.currentTime > 0) {
+      if (document.visibilityState !== "visible" || !video.paused) {
         return;
       }
 
       attemptPlay(false);
     });
+
+    window.addEventListener("pageshow", function () {
+      if (video.paused) {
+        attemptPlay(false);
+      }
+    });
+
+    window.addEventListener("focus", function () {
+      if (video.paused) {
+        attemptPlay(false);
+      }
+    });
+
+    if (mobileQuery) {
+      if (typeof mobileQuery.addEventListener === "function") {
+        mobileQuery.addEventListener("change", function () {
+          hasStarted = false;
+          clearReady();
+          attemptPlay(true);
+        });
+      } else if (typeof mobileQuery.addListener === "function") {
+        mobileQuery.addListener(function () {
+          hasStarted = false;
+          clearReady();
+          attemptPlay(true);
+        });
+      }
+    }
   }
 
   function initCalendlyWidget() {
@@ -396,14 +481,7 @@
   document.addEventListener("DOMContentLoaded", function () {
     initRevealAnimations();
     initCarousels();
+    initHeroMedia();
     initCalendlyWidget();
   });
-
-  window.addEventListener(
-    "load",
-    function () {
-      initHeroMedia();
-    },
-    { once: true }
-  );
 })();

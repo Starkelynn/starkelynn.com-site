@@ -63,3 +63,5 @@ FontAwesome nutzt anonyme Zugriffsdaten, die in deren
 
 #### Widerruf, Änderungen, Berichtigungen und Aktualisierungen
 Der Nutzer hat das Recht, auf Antrag unentgeltlich Auskunft zu erhalten über die personenbezogenen Daten, die über ihn gespeichert wurden. Zusätzlich hat der Nutzer das Recht auf Berichtigung unrichtiger Daten, Sperrung und Löschung seiner personenbezogenen Daten, soweit dem keine gesetzliche Aufbewahrungspflicht entgegensteht.<br />
+
+Erstellt von [PSWD](https://perstarke-webdev.de/) unter dem Dach von [Kröner & Starke Web Development](https://kroener-starke.ch/).

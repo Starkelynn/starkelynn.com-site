@@ -6,4 +6,23 @@
 .site-footer__badge {
   justify-self: center;
   margin-inline: auto;
+  padding: 3.648px;
+  box-shadow: 0 6.84px 19.76px -9.88px var(--color-black-22, rgba(0, 0, 0, 0.22));
+  font-size: 16px;
+}
+
+.site-footer__badge-core {
+  min-height: 20.064px;
+  padding: 3.648px 7.296px;
+}
+
+.site-footer__badge-lockup {
+  font-family: "K&S Badge", Georgia, serif !important;
+  font-size: 14.4px;
+  font-weight: 700 !important;
+}
+
+.page__footer .site-footer__badge:hover,
+.page__footer .site-footer__badge:focus-visible {
+  text-decoration: none !important;
 }

@@ -21,6 +21,7 @@
     <meta name="theme-color" content="#ffffff">
 
     {% include head/custom.html %}
+    <link rel="stylesheet" href="{{ '/assets/css/ks-badge.css' | relative_url }}">
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
@@ -47,5 +48,6 @@
     {% include scripts.html %}
     <script defer data-domain="starkelynn.com" src="https://plausible.io/js/script.js"></script>
 
+    <script src="{{ '/assets/js/ks-badge.js' | relative_url }}" defer></script>
   </body>
 </html>

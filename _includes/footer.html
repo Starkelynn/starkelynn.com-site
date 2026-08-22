@@ -25,13 +25,5 @@
     &copy; {{ site.time | date: '%Y' }} Lynn Starke.
   </div>
 
-  <a class="site-footer__badge" href="https://kroener-starke.ch/" target="_blank" rel="noopener noreferrer" aria-label="Made by: K&amp;S - Kröner &amp; Starke">
-    <svg class="site-footer__badge-orbit" viewBox="0 0 100 32" preserveAspectRatio="none" aria-hidden="true" focusable="false" data-badge-orbit>
-      <path class="site-footer__badge-orbit-fill" d="M 50 1 H 94 Q 99 1 99 6 V 26 Q 99 31 94 31 H 6 Q 1 31 1 26 V 6 Q 1 1 6 1 H 50" />
-      <path class="site-footer__badge-orbit-rail" d="M 50 1 H 94 Q 99 1 99 6 V 26 Q 99 31 94 31 H 6 Q 1 31 1 26 V 6 Q 1 1 6 1 H 50" pathLength="100" />
-      <path class="site-footer__badge-orbit-trace site-footer__badge-orbit-trace--a" />
-      <path class="site-footer__badge-orbit-trace site-footer__badge-orbit-trace--b" />
-    </svg>
-    <span class="site-footer__badge-core">Made by: <strong>K&amp;S</strong></span>
-  </a>
+  {% include ks-badge.html %}
 </div>

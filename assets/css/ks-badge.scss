@@ -1,0 +1,9 @@
+---
+---
+@import "components/ks-badge";
+
+// Preserve the established centered footer placement around the fixed asset.
+.site-footer__badge {
+  justify-self: center;
+  margin-inline: auto;
+}
